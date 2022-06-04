@@ -1,0 +1,32 @@
+.sideBar__body{
+    /* width: 20%; */
+    min-width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    flex:0.16;
+    height: 100vh;
+    background-color: #040404;
+    color: white;
+    overflow-y: overlay;
+}
+.sideBar__body::-webkit-scrollbar{
+    display: none;
+}
+.spotify_logo{
+    object-fit: contain;
+    height: 85px;
+    padding: 10px;
+    margin-right: auto;
+}
+.sideBar__body > hr{
+    width: 90%;
+    border: 1px solid #282828;
+    margin: 10px auto;
+}
+.sideBarTitle {
+    margin: 20px;
+    margin-top: 100px;
+    padding: 3px;
+    font-size: 20px;
+}

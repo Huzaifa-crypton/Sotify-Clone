@@ -1,0 +1,25 @@
+.sideBarOptionBody{
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.sideBarOptionBody:hover{
+    color: white;
+}
+.sideBarOptionIcon{
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+.sideBarOptionBody > p {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.sideBarOptionBody > h3 {
+    font-size: 20px;
+}

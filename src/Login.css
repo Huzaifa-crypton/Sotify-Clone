@@ -1,0 +1,36 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black ;
+}
+.login >img{
+    width: 30%;
+}
+
+.login > a{
+    padding: 20px;
+    background-color: #1db954;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+.login >a:hover{
+    cursor: pointer;
+}
+.login > input{
+    background-color: black;
+    height: 40px;
+    flex: 1;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+.login >input::placeholder {
+    color: white;
+    font-size: 15px;
+
+  }

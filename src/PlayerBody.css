@@ -1,0 +1,9 @@
+.player_body_body{
+    flex: 0.84;
+    /* width: 80%; */
+    height: 100vh;
+    color: white;
+    padding: 30px;
+    background: linear-gradient(rgb(91,87,115) , rgba(0,0,0,1));
+    overflow-y: overlay;
+}
